@@ -12,8 +12,6 @@ vth = -50e-3     # milivolt
 r = 100e6        # ohm
 i_mean = 25e-11  # ampere
 
-
-try_mm = mm.mysum(1,2)
 # Set random number generator
 np.random.seed(2020)
 
