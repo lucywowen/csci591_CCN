@@ -20,7 +20,7 @@ np.random.seed(2020)
 # Initialize step_end, t_range, n, v_n and i
 t_range = np.arange(0, t_max, dt)
 step_end = len(t_range)
-n = 500
+n = 5
 v_n = el * np.ones([n, step_end])
 i = i_mean * (1 + 0.1 * (t_max / dt)**(0.5) * (2 * np.random.random([n, step_end]) - 1))
 
